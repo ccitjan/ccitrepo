@@ -19,3 +19,14 @@ resource "aws_s3_bucket" "ccit_s3_3" {
   bucket = "ccit-public-bucket3"
   tags = { Name = "ccitbucket3" }
 }
+
+
+resource "aws_instance" "firstinstance" {
+  count = 5
+  ami           = "ami-0a19d948cf5ce40b2"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "MyEC2Instance"
+  }
+}
