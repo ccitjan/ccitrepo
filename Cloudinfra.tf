@@ -18,3 +18,8 @@ resource "aws_s3_bucket" "ccit_s33" {
   bucket = "ccit-public-bucket2"
   tags = { Name = "ccitbucket3" }
 }
+# Create an S3 bucket
+resource "aws_s3_bucket" "ccit_s34" {
+  bucket = "ccit-public-bucket3"
+  tags = { Name = "ccitbucket4" }
+}
