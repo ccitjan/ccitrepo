@@ -22,3 +22,8 @@ resource "aws_s3_bucket" "ccit_s324" {
   bucket = "ccit-public-bucket3"
   tags = { Name = "ccitbucket4" }
 }
+
+resource "aws_s3_bucket" "ccit_s325" {
+  bucket = "ccit-public-bucket4"
+  tags = { Name = "ccitbucket5" }
+}
