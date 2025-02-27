@@ -11,4 +11,3 @@ resource "aws_s3_bucket" "ccit_s31" {
   bucket = "ccit-public-bucket1"
   tags = {"Environment": "dev"}
 }
-}
