@@ -4,6 +4,5 @@ provider "aws" {
 # Create an S3 bucket
 resource "aws_s3_bucket" "ccit_s3" {
   bucket = "ccit-public-bucket1"
-  tags = {"Environment": true,
-  "Terraform": true}
+  tags = {"Environment": "dev"}
 }
