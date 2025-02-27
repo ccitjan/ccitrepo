@@ -12,9 +12,9 @@ resource "aws_instance" "firstinstance" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "MyEC2Inst",
-Environment = "Dev", 
-Owner = "CCIT"
+   "Name"          = "EC2CCIT"
+    "Environment"   = "Dev"
+    "Owner"         = "CCIT"
 
   }
 }
