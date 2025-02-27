@@ -13,3 +13,8 @@ resource "aws_s3_bucket" "ccit_s32" {
   tags = { Name = "ccitbucket1" }
 }
 
+resource "aws_s3_bucket" "ccit_s323" {
+  bucket = "ccit-public-bucket2"
+  tags = { Name = "ccitbucket1" }
+}
+
