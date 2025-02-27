@@ -6,3 +6,8 @@ resource "aws_s3_bucket" "ccit_s3" {
   bucket = "ccit-public-bucket0"
   tags = {"Environment": "dev"}
 }
+
+resource "aws_s3_bucket" "ccit_s3" {
+  bucket = "ccit-public-bucket0"
+  tags = {"Environment": "dev"}
+}
