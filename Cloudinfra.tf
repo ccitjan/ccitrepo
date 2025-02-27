@@ -7,3 +7,9 @@ resource "aws_s3_bucket" "ccit_s3" {
   bucket = "ccit-public-bucket"
   tags = { Name = "ccitbucket" }
 }
+
+resource "aws_s3_bucket" "ccit_s32" {
+  bucket = "ccit-public-bucket1"
+  tags = { Name = "ccitbucket1" }
+}
+
